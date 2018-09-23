@@ -1,0 +1,14 @@
+# Site settings
+title: DEFCON Hong Kong
+email: info@dc852.org
+description: > # this means to ignore newlines until "baseurl:"
+ Hong Kong's DEFCON Group
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+facebook_username: dc852
+twitter_username: dc852
+github_username: dc852
+
+# Build settings
+markdown: kramdown
