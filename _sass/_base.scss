@@ -70,7 +70,8 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    #background-color: white;
+    background-color: $theme-dark;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -91,7 +92,8 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                #color: $theme-dark;
+                color: white;
                 &:hover {
                     color: $theme-primary;
                 }
