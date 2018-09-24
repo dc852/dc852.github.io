@@ -126,7 +126,8 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
+            #background-color: white;
+            background-color: $theme-dark;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
@@ -138,7 +139,8 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                #color: $theme-dark;
+                color: white;
                 &:hover {
                     color: $theme-primary;
                 }
